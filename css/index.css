@@ -1,0 +1,66 @@
+/* Styles spécifiques à la page d'accueil */
+.containermain {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.lp-blocks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lp-section-header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.lp-section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.lp-section-desc {
+    font-size: 16px;
+    color: grey;
+}
+
+.lp-blocks-inside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.lp-block {
+    flex: 1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+}
+
+.lp-block-title {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #6fa1c3;
+    transition: color 0.3s;
+}
+
+.lp-block:hover .lp-block-title {
+    color: #b5cede;
+}
+
+.lp-block-text {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.lp-block-text a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.lp-block-text a:hover {
+    text-decoration: underline;
+}
